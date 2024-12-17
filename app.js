@@ -46,3 +46,63 @@ products.forEach((product) => console.log(product.name, product.price));
 
 //Increase Price: Increase the price of each product by 10% and log the updated products
 const updatedProducts = products
+
+
+
+
+
+
+
+
+
+
+
+
+const students = [
+  { name: "Alice", age: 20, grade: 85 },
+  { name: "Bob", age: 22, grade: 90 },
+  { name: "Charlie", age: 21, grade: 78 },
+  { name: "Diana", age: 23, grade: 95 },
+];
+
+//Filter students who are 21 or younger and print each of them
+
+const youngStudents = students.filter((student) => student.age <= 21);
+console.log(youngStudents);
+
+students
+.filter((student) => student.age <= 21);
+.forEach((student) => console.log(student.name);
+
+//For each student, increase their grade by 2 points and print the new grades 
+
+const increasedGrades = students.forEach((student) => student.grade + 2);
+console.log(increasedGrades);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
