@@ -44,11 +44,10 @@ const products = [
 //Display Product Details: Log the name and price of each product
 products.forEach((product) => console.log(product.name, product.price));
 
-//Increase Price: Increase the price of each product by 10% and log the updated products
-const updatedProducts = products
 
-
-
+//Log Highly Rated Product Names: Use filter to get the highly rated products (rating >= 4.5) and then use forEach to log only their names.
+const highlyRatedProducts = products.filter((product) => product.rating >= 4.5);
+highlyRatedProducts.forEach((product) => console.log(product.name));
 
 
 
